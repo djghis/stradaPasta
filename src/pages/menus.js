@@ -1,18 +1,73 @@
-import React from 'react'
+// import React from 'react'
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+// import Layout from "../components/layout"
+// import SEO from "../components/seo"
 
-const Menus = () => (
-  <Layout>
-    <SEO title="Menus" />
-    <h1>Menus</h1>
-    <p>here are all the way you can Menus:</p>
+// const Menus = () => (
+//   <Layout>
+//     <SEO title="Menus" />
+//     <h1>Menus</h1>
+//     <p>here are all the way you can Menus:</p>
     
     
     
     
-  </Layout>
-)
+//   </Layout>
+// )
+
+// export default Menus
+
+import React, { Component } from 'react'
+import ReactModal from 'react-modal'
+import { Link } from 'gatsby'
+
+import Layout from '../components/layout'
+
+import Menu from '../images/menu.png'
+
+ReactModal.setAppElement('#___gatsby')
+
+class Menus extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      isModalOpen: false,
+    }
+  }
+  handleModalOpen = event => {
+    // console.log('handleModalOpen: ', event);
+    this.setState({ isModalOpen: true })
+  }
+
+  handleModalClose = event => {
+    // console.log('handleModalOpen: ', event);
+    this.setState({ isModalOpen: false })
+  }
+
+  render() {
+    return (
+      <Layout>
+        <div id="main">
+          <h1>Our Menu</h1>
+          <p>Please find a all lot of delicisou treats on there.</p>
+          <p>Click on it to make it full page.</p>
+
+          <Link to="#" onClick={this.handleModalOpen}>
+            <img src={Menu} ></img>
+          </Link>
+        </div>
+        <ReactModal
+          isOpen={this.state.isModalOpen}
+          onRequestClose={this.handleModalClose}
+          contentLabel="Full Page Menu"
+        >
+          <h2>Strada</h2>
+          <img src={Menu}></img>
+          <button onClick={this.handleModalClose}>Go back</button>
+        </ReactModal>
+      </Layout>
+    )
+  }
+}
 
 export default Menus
