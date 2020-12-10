@@ -2,6 +2,7 @@ import React, {useEffect, useRef, useState} from "react"
 import {Link} from "gatsby"
 import styled from "styled-components"
 import { breakpoints } from "../utils/breakPoints"
+import Logo from '../images/background-logo-cut.jpeg'
 
 const DesktopNavMenu = () => {
 
@@ -25,6 +26,7 @@ const DesktopNavMenu = () => {
 
     return (
         <StyledHeader background={background}>
+            <div className="logo"> <img  src={Logo} className="logo-strada" ></img></div>
             <ul>
                 <li>
                 <Link to="/" className="white">Home</Link>
@@ -55,7 +57,7 @@ const StyledHeader = styled.header`
 display: none;
 @media ${breakpoints.lg} {
     display: flex;
-    position:fixed;
+    ${'' /* position:fixed; */}
     align-items: center;
     width: 100%;
     top:0;
@@ -64,6 +66,11 @@ display: none;
     transition: background 400ms;
     ${'' /* background: black; */}
     background: ${({ background }) => background ? "grey" : "black"};
+
+        .logo-strada {
+            height: 100px;
+            width: auto;
+        }
 
         ul{
             display: flex;

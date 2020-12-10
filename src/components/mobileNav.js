@@ -2,6 +2,7 @@ import React, {useState} from "react"
 import {Link} from "gatsby"
 import styled from "styled-components"
 import {breakpoints}  from "../utils/breakPoints"
+import Logo from '../images/background-logo-cut.jpeg'
 
 const MobileNavMenu = () => {
 
@@ -9,7 +10,7 @@ const MobileNavMenu = () => {
 
     return (
         <MenuBar>
-            <Link to="/">Home</Link>
+            <Link to="/"><div className="logo"> <img  src={Logo} className="logo-strada" ></img></div></Link>
             <MenuIconContainer>
                 <MenuIcon menuOpen={menuOpen} onClick={() => setMenuOpen(!menuOpen)}>
                     <div/>
@@ -51,8 +52,14 @@ const MenuBar = styled.header`
         display: none;
     }
 
-    height: 3rem;
-    position: fixed;
+    .logo-strada {
+  height: 5rem;
+  width: auto;
+  
+}
+
+    height: 5rem;
+    ${'' /* position: fixed; */}
     width: 100%;
     background: black;
     border-bottom: blue;
@@ -125,10 +132,11 @@ const MenuLinks = styled.nav`
     ul{
             display: flex;
             flex-direction: column;
-            justify-content: center;
+            justify-content: space-between;
             align-items: center;
             float: right;
             width: 100%;
+            height: 80%;
             margin: 0;
         }
 
@@ -139,6 +147,7 @@ const MenuLinks = styled.nav`
                 text-decoration: none;
                 color: white;
                 transition: color 400ms;
+                ${'' /* justify-content: space-between; */}
 
                 :hover {
                     color: grey;

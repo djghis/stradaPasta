@@ -19,11 +19,13 @@
 
 import React, { Component } from 'react'
 import ReactModal from 'react-modal'
-import { Link } from 'gatsby'
+import { Link, useStaticQuery, graphql } from 'gatsby'
 
 import Layout from '../components/layout'
 
+import Img from 'gatsby-image'
 import Menu from '../images/menu.png'
+import Image from "../components/image"
 
 ReactModal.setAppElement('#___gatsby')
 
@@ -44,6 +46,9 @@ class Menus extends Component {
     this.setState({ isModalOpen: false })
   }
 
+  
+
+
   render() {
     return (
       <Layout>
@@ -53,7 +58,9 @@ class Menus extends Component {
           <p>Click on it to make it full page.</p>
 
           <Link to="#" onClick={this.handleModalOpen}>
-            <img src={Menu} ></img>
+            {/* <img src={Menu} ></img> */}
+            <Image/>
+            {/* <Img fluid={data.menu.childImageSharp.fluid} alt="Strada full menu"/> */}
           </Link>
         </div>
         <ReactModal
@@ -62,7 +69,8 @@ class Menus extends Component {
           contentLabel="Full Page Menu"
         >
           <h2>Strada</h2>
-          <img src={Menu}></img>
+          <Image/>
+          {/* <img src={Menu}></img> */}
           <button onClick={this.handleModalClose}>Go back</button>
         </ReactModal>
       </Layout>
@@ -70,4 +78,9 @@ class Menus extends Component {
   }
 }
 
+
+
+
+
 export default Menus
+
