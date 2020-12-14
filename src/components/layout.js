@@ -144,7 +144,7 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <Footer />
+        
         {/* <footer style={{
           marginTop: `2rem`
         }}>
@@ -153,6 +153,7 @@ const Layout = ({ children }) => {
           <a href="https://www.gatsbyjs.com">Gatsby</a>
         </footer> */}
       </div>
+      <Footer />
     </>
   )
 }

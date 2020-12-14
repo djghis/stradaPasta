@@ -26,10 +26,10 @@ const DesktopNavMenu = () => {
 
     return (
         <StyledHeader background={background}>
-            <div className="logo"> <img  src={Logo} className="logo-strada" ></img></div>
+            <div className="logo"><Link to="/" > <img  src={Logo} className="logo-strada" ></img></Link></div>
             <ul>
                 <li>
-                <Link to="/" className="white">Home</Link>
+                <Link to="/" >Home</Link>
                 </li>
                 <li>
                     <Link to="/menus">Menu</Link>
