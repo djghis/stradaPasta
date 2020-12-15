@@ -3,7 +3,7 @@ import { Link, useStaticQuery, graphql } from 'gatsby'
 import Img from 'gatsby-image'
 
 import Layout from "../components/layout"
-import Image from "../components/image"
+import Image from "../components/images/image"
 import SEO from "../components/seo"
 import MenuImage from "../components/menuImage"
 
@@ -31,8 +31,8 @@ Strada-italian for street-brings the best of Italian cucina to your home.
 Buon appetito</p>
       <p>Now go build something great.</p>
       <div style={{ maxWidth: `300px`, marginBottom: `1.45rem`}}>
-        {/* <Image /> */}
-        {/* <Img fluid={data.menu.childImageSharp.fluid} alt="Strada full menu"/> */}
+     
+    
         <MenuImage />
       </div>
     </Layout>

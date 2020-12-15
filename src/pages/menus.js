@@ -25,7 +25,7 @@ import Layout from '../components/layout'
 
 import Img from 'gatsby-image'
 import Menu from '../images/menu.png'
-import Image from "../components/image"
+import Image from "../components/images/image"
 
 ReactModal.setAppElement('#___gatsby')
 

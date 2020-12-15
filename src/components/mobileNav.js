@@ -83,7 +83,7 @@ const MenuIcon = styled.button`
     flex-direction: column;
     justify-content: space-around;
     height: 2rem;
-    outline: thin-dotted;
+    ${'' /* outline: thin-dotted; */}
     z-index: 11;
     
 
@@ -125,7 +125,7 @@ const MenuLinks = styled.nav`
     right: 0;
     height: 100vh;
     width: 70%;
-    transition transform 600ms;
+    transition: transform 600ms;
     transform: ${({menuOpen}) => menuOpen ? "translateX(0)" : "translateX(100%)"};
 
     
@@ -146,12 +146,6 @@ const MenuLinks = styled.nav`
             a {
                 text-decoration: none;
                 color: white;
-                transition: color 400ms;
-                ${'' /* justify-content: space-between; */}
-
-                :hover {
-                    color: grey;
-                }
             }
     
 `

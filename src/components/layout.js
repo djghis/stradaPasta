@@ -137,6 +137,7 @@ const Layout = ({ children }) => {
     </MenuLinks> */}
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <div
+        // className="page-container"
         style={{
           margin: `0 auto`,
           maxWidth: 960,
@@ -152,8 +153,9 @@ const Layout = ({ children }) => {
           {` `}
           <a href="https://www.gatsbyjs.com">Gatsby</a>
         </footer> */}
+        
       </div>
-      <Footer />
+      <Footer  />
     </>
   )
 }
