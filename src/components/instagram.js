@@ -41,7 +41,8 @@ const Instagram = () => {
       }
     `)
       return (
-        <div >
+        <div>
+        <div className="gallery" >
            {data.allInstaNode.edges.map(edge => 
                     <a href={edge.node.original} target="_blank" rel="noreferrer">
                     <Img className="insta-photo"
@@ -51,6 +52,7 @@ const Instagram = () => {
                     />
                     </a>
                     )}
+          </div>
             <h2
               style={{
             fontFamily: 'Gochi Hand',}}

@@ -704,3 +704,26 @@ footer {
   z-index: 100;
 }
 
+.gallery {
+   display: flex;
+  flex-wrap: wrap;
+  /* height: 400px; */
+justify-content: center;
+}
+
+.insta-photo {
+
+  margin: 2px;
+  padding: 3rem;
+  border-style: solid;
+  border-color: white;
+  border-radius: 4px;
+  transition: transform .4s;
+}
+
+.insta-photo:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+}
+
