@@ -87,12 +87,14 @@ display: none;
             a {
                 text-decoration: none;
                 color: white;
-                transition: color 400ms;
+                transition: color 400ms, font-size .4s;
 
                 :hover {
                     color: grey;
+                    font-size: 130%;
                 }
             }
     }
 }
 `
+
