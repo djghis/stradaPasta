@@ -21,7 +21,8 @@ const Footer = () => {
     `)
     return (
         <footer className="footer">
-            <p>This site was built by {data.site.siteMetadata.author}, © 2020
+          
+            <p>This site was built by <a href="https://gg-online.netlify.app/">{data.site.siteMetadata.author}, © 2020 </a>
               <span>
                 <a href='https://www.instagram.com/ggdev_elopment/' target="_blank" rel="noreferrer">
                   <img className="insta-logo" src={InstaLogo} alt="Intagram Logo" ></img>
