@@ -29,22 +29,22 @@ const DesktopNavMenu = () => {
             <div className="logo"><Link to="/" > <img  src={Logo} className="logo-strada" ></img></Link></div>
             <ul>
                 <li>
-                <Link to="/" >Home</Link>
+                <Link to="/" activeStyle={{ color: "#606060", fontSize: "120%" }} >Home</Link>
                 </li>
                 <li>
-                    <Link to="/menus">Menu</Link>
+                    <Link to="/menus" activeStyle={{ color: "#606060", fontSize: "120%" }}>Menu</Link>
                 </li>
                 <li>
-                    <Link to="/gallery">Gallery</Link>
+                    <Link to="/gallery" activeStyle={{ color: "#606060", fontSize: "120%" }}>Gallery</Link>
                 </li>
                 <li>
-                    <Link to="/order-online">Order-Online</Link>
+                    <Link to="/order-online" activeStyle={{ color: "#606060", fontSize: "120%" }}>Order-Online</Link>
                 </li>
                 <li>
-                    <Link to="/catering-events">Catering & Events</Link>
+                    <Link to="/catering-events" activeStyle={{ color: "#606060", fontSize: "120%" }}>Catering & Events</Link>
                 </li>
                 <li>
-                    <Link to="/contact">Contact Us</Link>
+                    <Link to="/contact" activeStyle={{ color: "#DDDDDD" }}>Contact Us</Link>
                 </li>
             </ul>
         </StyledHeader>
@@ -93,7 +93,13 @@ display: none;
                     color: grey;
                     font-size: 130%;
                 }
+
+                
+
+                
             }
+
+            
     }
 }
 `

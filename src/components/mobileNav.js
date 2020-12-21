@@ -22,22 +22,22 @@ const MobileNavMenu = () => {
             <MenuLinks menuOpen={menuOpen}>
             <ul>
                 <li>
-                <Link to="/" className="white">Home</Link>
+                <Link to="/" activeStyle={{ color: "#606060", fontSize: "145%" }}>Home</Link>
                 </li>
                 <li>
-                    <Link to="/menus">Menu</Link>
+                    <Link to="/menus" activeStyle={{ color: "#606060", fontSize: "145%" }}>Menu</Link>
                 </li>
                 <li>
-                    <Link to="/gallery">Gallery</Link>
+                    <Link to="/gallery" activeStyle={{ color: "#606060", fontSize: "145%" }}>Gallery</Link>
                 </li>
                 <li>
-                    <Link to="/order-online">Order-Online</Link>
+                    <Link to="/order-online" activeStyle={{ color: "#606060", fontSize: "145%" }}>Order-Online</Link>
                 </li>
                 <li>
-                    <Link to="/catering-events">Catering & Events</Link>
+                    <Link to="/catering-events" activeStyle={{ color: "#606060", fontSize: "145%" }}>Catering & Events</Link>
                 </li>
                 <li>
-                    <Link to="/contact">Contact Us</Link>
+                    <Link to="/contact" activeStyle={{ color: "#606060", fontSize: "145%" }}>Contact Us</Link>
                 </li>
             </ul>
         </MenuLinks>
