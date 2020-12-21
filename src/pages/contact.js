@@ -5,6 +5,7 @@ import SEO from "../components/seo"
 import contactStyles from "./contact.module.scss"
 
 import Instalogo from '../images/insta-logo-bw.png'
+import Facebooklogo from '../images/facebook-logo-bw.png'
 
 const ContactUs = () => (
   <Layout>
@@ -27,9 +28,9 @@ const ContactUs = () => (
                 </span>
             </a></h2>
     <h2>
-      <a href='https://www.facebook.com/cleaningeastlothian' target="_blank" rel="noreferrer">Follow us on Facebook  
+      <a href='https://www.facebook.com/thecleaningbeesnorthberwick' target="_blank" rel="noreferrer">Follow us on Facebook  
         <span><img 
-        className='insta-logo' src="https://www.transparentpng.com/thumb/facebook-logo/new-facebook-logo-12.png" 
+        className='insta-logo' src={Facebooklogo} 
         alt="facebook logo" /></span>
       </a>
     </h2>
