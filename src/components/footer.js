@@ -28,23 +28,27 @@ const Footer = () => {
                   <img className="insta-logo" src={InstaLogo} alt="Intagram Logo" ></img>
                 </a>
               </span>
-              <ul>
-                <li>
-                <Link to="/privacy-policy">Privacy policy</Link>
-                </li>
-                <li>
-                    <Link to="/allergies">Allergy information</Link>
-                </li>
-                <li>
-                    <Link to="/terms">Terms of use</Link>
-                </li>
-                <li>
-                    <Link to="/order-online">Order Now</Link>
-                </li>
-                <li>
-                    <Link to="/contact">Contact Us</Link>
-                </li>
-            </ul>
+              <div className="footer-links">
+                <ul>
+                  <li>
+                  <Link to="/privacy-policy">Privacy policy</Link>
+                  </li>
+                  <li>
+                      <Link to="/allergies">Allergy information</Link>
+                  </li>
+                  <li>
+                      <Link to="/terms">Terms of use</Link>
+                  </li>
+                  </ul>
+                  <ul>
+                  <li>
+                      <Link to="/order-online">Order Now</Link>
+                  </li>
+                  <li>
+                      <Link to="/contact">Contact Us</Link>
+                  </li>
+              </ul>
+            </div>
             </p>
         </footer>
     )

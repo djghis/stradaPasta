@@ -749,8 +749,18 @@ justify-content: center;
   margin-top: 2rem;
 }
 
+.order-links {
+  display: flex;
+}
+
 .order-link {
   width: 340px;
   height: auto;
 
+}
+
+.footer-links{
+  display: flex;
+  margin-top: 1rem;
+  justify-content: space-around;
 }

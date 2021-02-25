@@ -32,7 +32,7 @@ const DesktopNavMenu = () => {
                 <Link to="/" activeStyle={{ color: "#606060", fontSize: "120%" }} >Home</Link>
                 </li>
                 <li>
-                    <Link to="/menus" activeStyle={{ color: "#606060", fontSize: "120%" }}>Menu</Link>
+                    <Link to="/menu-with-modal" activeStyle={{ color: "#606060", fontSize: "120%" }}>Menu</Link>
                 </li>
                 <li>
                     <Link to="/gallery" activeStyle={{ color: "#606060", fontSize: "120%" }}>Gallery</Link>
