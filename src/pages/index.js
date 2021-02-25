@@ -6,6 +6,7 @@ import Layout from "../components/layout"
 import Image from "../components/images/image"
 import SEO from "../components/seo"
 import MenuImage from "../components/menuImage"
+import Logo from '../images/background-logo-cut.jpeg'
 
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
@@ -23,13 +24,13 @@ const IndexPage = () => {
   return (
     <Layout>
       <SEO title="Home" />
-      <h1>Hi people</h1>
-      <p>Every morning our team of pastai prepare, from la nonna’s receipe, our handmade fresh pasta using free range scottish eggs and a blend of flours imported from italy. Because we believe everybody deserves a proper pasta we’ve also developed our signature vegan/gluten free dough.  
-
-Strada-italian for street-brings the best of Italian cucina to your home. 
-
-Buon appetito</p>
-      <p>Now go build something great.</p>
+      {/* <img src={Logo} alt="Strada Logo" width="250" height="auto" display="block" margin-left="20%" margin-right="auto"/> */}
+     <div className="home-speech">
+      <p>Every morning our team of pastai prepare our handmade fresh pasta from la Nonna's recipe using free range Scottish eggs and a blend of flours imported from Italy.  
+</p>
+      <p>Because we believe everybody deserves a proper pasta we have also developed our signature vegan dough.</p>
+      <p>Strada-Italian for street brings the best of italian cucina to your home.</p>
+      </div>
       <div style={{ maxWidth: `300px`, marginBottom: `1.45rem`}}>
      
     

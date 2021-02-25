@@ -741,4 +741,16 @@ justify-content: center;
   transform: scale(1.1);
 }
 
+.home-speech {
+  width: 85%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+}
 
+.order-link {
+  width: 340px;
+  height: auto;
+
+}

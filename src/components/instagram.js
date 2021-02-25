@@ -56,7 +56,7 @@ const Instagram = () => {
             <h2
               style={{
             fontFamily: 'Gochi Hand',}}
-            ><a href='https://www.instagram.com/thecleaningbeesel/' target='-blank' rel="noreferrer" >Follow us on Instagram  
+            ><a href='https://www.instagram.com/stradaedin/' target='-blank' rel="noreferrer" >Follow us on Instagram  
                 <span>
                 <img className='insta-logo' src={Instalogo} 
                 alt="instagram logo png @transparentpng.com" />
