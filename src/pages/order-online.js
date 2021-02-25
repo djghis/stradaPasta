@@ -1,6 +1,6 @@
 import React from 'react'
 import DeliverooImage from "../images/deliveroo-logo-2016-600x400.png"
-import UberEatImage from "../images/daco_2012950.png"
+import UberEatImage from "../images/uberEatsLogo.png"
 import JustEatImage from "../images/just-eat-logo.png"
 
 import Layout from "../components/layout"
