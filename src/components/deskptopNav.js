@@ -28,11 +28,11 @@ const DesktopNavMenu = () => {
         <StyledHeader background={background}>
             <div className="logo"><Link to="/" > <img  src={Logo} className="logo-strada" ></img></Link></div>
             <ul>
-                <li>
+                {/* <li>
                 <Link to="/" activeStyle={{ color: "#606060", fontSize: "120%" }} >Home</Link>
-                </li>
+                </li> */}
                 <li>
-                    <Link to="/menu-with-modal" activeStyle={{ color: "#606060", fontSize: "120%" }}>Menu</Link>
+                    <Link to="/menus-with-modal" activeStyle={{ color: "#606060", fontSize: "120%" }}>Menu</Link>
                 </li>
                 <li>
                     <Link to="/gallery" activeStyle={{ color: "#606060", fontSize: "120%" }}>Gallery</Link>
@@ -55,7 +55,7 @@ export default DesktopNavMenu
 
 const StyledHeader = styled.header`
 display: none;
-@media ${breakpoints.lg} {
+@media ${breakpoints.sm} {
     display: flex;
     ${'' /* position:fixed; */}
     align-items: center;

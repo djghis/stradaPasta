@@ -48,13 +48,15 @@ const MobileNavMenu = () => {
 export default MobileNavMenu
 
 const MenuBar = styled.header`
-    @media ${breakpoints.lg} {
+    @media ${breakpoints.sm} {
         display: none;
     }
 
     .logo-strada {
-  height: 5rem;
-  width: auto;
+    width: 5rem;
+    height: auto;
+    
+ 
   
 }
 

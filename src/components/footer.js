@@ -22,10 +22,10 @@ const Footer = () => {
     return (
         <footer className="footer">
           
-            <p>This site was built by <a href="https://gg-online.netlify.app/" target="_blank">{data.site.siteMetadata.author}, © 2020 </a>
+            <p>
               <span>
-                <a href='https://www.instagram.com/ggdev_elopment/' target="_blank" rel="noreferrer">
-                  <img className="insta-logo" src={InstaLogo} alt="Intagram Logo" ></img>
+                <a href='https://www.instagram.com/stradaedin/' target="_blank" rel="noreferrer">
+                  <img className="insta-footer" src={InstaLogo} alt="Intagram Logo" ></img>
                 </a>
               </span>
               <div className="footer-links">
@@ -49,6 +49,7 @@ const Footer = () => {
                   </li>
               </ul>
             </div>
+            This site was built by <a href="https://gg-online.netlify.app/" target="_blank">{data.site.siteMetadata.author}, © 2021 </a>
             </p>
         </footer>
     )

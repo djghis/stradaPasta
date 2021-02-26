@@ -6,7 +6,7 @@ import Img from 'gatsby-image'
 const MenuImage = () => {
     const data = useStaticQuery(graphql`
   query  {
-    menu: file(relativePath: {eq: "menu.png"}) {
+    menu: file(relativePath: {eq: "menu-strada.pdf"}) {
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid

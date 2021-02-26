@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+
 /* font-family: 'Gochi Hand', cursive;
 font-family: 'Montserrat', sans-serif; */
 
@@ -9,6 +10,7 @@ html {
   font: 112.5%/1.45em georgia, serif, sans-serif;
   box-sizing: border-box;
   overflow-y: scroll;
+  text-align: center;
 }
 body {
   margin: 0;
@@ -599,39 +601,14 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
-@media only screen and (max-width: 480px) {
-  html {
-    font-size: 100%;
-  }
 
-  /* .logo-strada {
-    height: 50px;
-    width: auto;
-  } */
+              /* THIS IS WHERE MY CSS STARTS */
 
- .logo {
-   display: none;
- }
-
- /* .menuLinks {
-  display: inline-block;
- }
- 
- .menuIcon {
-   display: inline-block;
- } */
-}
-
-
-
-
-
-
-
+              
 header {
   display: table;
   /* background: black; */
-  margin: 0 auto;
+  margin: 0 auto 20px auto;
   width: 100%;
   font-family: 'Gochi Hand', cursive;
 }
@@ -665,6 +642,10 @@ header {
 
 .menu a:hover {
   color: grey;
+}
+
+.menu-photo {
+  max-height: 500px;
 }
 
 /* .menuLinks {
@@ -708,13 +689,21 @@ footer  a {
   color: white;  
 }
 
-.insta-logo {
+.insta-footer {
   float: right;
-  margin-right: 20px;
-  /* right: 5px; */
+  margin: 0.2rem 1rem 0 0;
   max-width: 40px;
   max-height: 40px;
-  margin-bottom: -1%;
+
+  z-index: 100;
+}
+
+.insta-logo {
+  position: relative;
+  top: -10px;
+  float: right;
+  max-width: 40px;
+  max-height: 40px;
   z-index: 100;
 }
 
@@ -763,4 +752,38 @@ justify-content: center;
   display: flex;
   margin-top: 1rem;
   justify-content: space-around;
+}
+
+.center-text {
+ 
+  text-align: center;
+}
+
+.call-logo {
+  max-width: 70px;
+  max-height: 70px;
+  margin-bottom: 0.83em ;
+}
+
+.call-collect {
+  margin-top: 4rem;
+}
+
+
+                    /* THIS IS THE BEGINNING OF MEDIA QUERIES */
+
+
+@media only screen and (max-width: 640px) {
+  html {
+    font-size: 100%;
+  }
+
+  h2 {
+    font-size: .98rem;
+  }
+
+.insta-logo {
+  max-width: 30px;
+  max-height: 30px;
+}
 }

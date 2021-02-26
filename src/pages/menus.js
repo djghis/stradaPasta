@@ -36,7 +36,7 @@ class Menus extends Component {
       <Layout>
        
           <h1>Our Menu</h1>
-          <p>Please find a all lot of delicisou treats on there.</p>
+          <p>Please find a all lot of delicious treats on there.</p>
           <MenuStrada />
 
           

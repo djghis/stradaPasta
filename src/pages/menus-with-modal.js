@@ -54,12 +54,12 @@ class MenusModal extends Component {
       <Layout>
         <div id="main">
           <h1>Our Menu</h1>
-          <p>Please find a all lot of delicisou treats on there.</p>
+          
           <p>Click on it to make it full page.</p>
 
           <Link to="#" onClick={this.handleModalOpen}>
             {/* <img src={Menu} ></img> */}
-            <Image/>
+            <Image className="menu-photo"/>
             {/* <Img fluid={data.menu.childImageSharp.fluid} alt="Strada full menu"/> */}
           </Link>
         </div>
@@ -69,8 +69,9 @@ class MenusModal extends Component {
           contentLabel="Full Page Menu"
         >
           <h2>Strada</h2>
+          <button onClick={this.handleModalClose}>Go back</button>
           <Image/>
-          {/* <img src={Menu}></img> */}
+          
           <button onClick={this.handleModalClose}>Go back</button>
         </ReactModal>
       </Layout>
