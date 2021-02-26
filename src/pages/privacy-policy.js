@@ -7,9 +7,9 @@ const PrivacyPolicy = () => (
   <Layout>
     <SEO title="Privacy policy" />
 
-<h2>PRIVACY POLICY</h2>
+    <h2>PRIVACY POLICY</h2>
 
-<p>We at Matto Pizza understand that your privacy is important to you and that you care about how your personal data is used and shared online. We respect and value the privacy of everyone who visits this website www.mattopizzaonline.co.uk ("our Site") and will only collect and use personal data in ways that are described here, and in a manner that is consistent with our obligations and your rights under the law.
+<p>We at Strada Pasta understand that your privacy is important to you and that you care about how your personal data is used and shared online. We respect and value the privacy of everyone who visits this website www.mattopizzaonline.co.uk ("our Site") and will only collect and use personal data in ways that are described here, and in a manner that is consistent with our obligations and your rights under the law.
 </p>
 
 <p>Please read this Privacy Policy carefully and ensure that you understand it. Your acceptance of our Privacy Policy is deemed to occur upon your first use of our Site. If you do not accept and agree with this Privacy Policy, you must stop using our Site immediately.
@@ -23,12 +23,12 @@ const PrivacyPolicy = () => (
 </p>
 <p>"Personal data" means any and all data that relates to an identifiable person who can be directly or indirectly identified from that data. In this case, it means personal data that you give to us via our Site. This definition shall, where applicable, incorporate the definitions provided in the General Data Protection Regulation 2016/679 ("GDPR"); and
 </p>
-<p>"Takeaway/We/Us/Our" means Matto Pizza a company whose registered address is 12, Cadzow Pl, Edinburgh, Edinburgh, EH7 5SN.
+<p>"Takeaway/We/Us/Our" means Strada Pasta a company working from 3 Brodies's Close, Edinburgh EH1 2PS.
 </p>
 
 <h3>2. Information About Us</h3>
 
-<p>Our Site is operated by Touch2Success ("T2S"), the trading name of UK Tech Ltd, a company registered in England and Wales under number 07845413, whose registered office is at 58 Moorland Road, Stoke-On-Trent, Staffordshire, ST6 1DT.
+<p>You can contact us by email: Babacatering@outlook.com or phone: 07899 347855.
 </p>
 
 <h3>3. What Does This Policy Cover?</h3>
@@ -173,7 +173,7 @@ const PrivacyPolicy = () => (
 
 <h3>14. Contacting Us</h3>
 
-<p>If you have any questions about our Site or this Privacy Policy, please contact us by email at info@mattopizzaonline.co.uk by telephone on 01316569000 or by post at 12, Cadzow Pl, Edinburgh, Edinburgh, EH7 5SN. Please ensure that your query is clear, particularly if it is a request for information about the data we hold about you (as under section 12, above).</p>
+<p>If you have any questions about our Site or this Privacy Policy, please contact us by email at info@mattopizzaonline.co.uk by telephone on 07899 347855 or by post at 3 Brodie's Close, Edinburgh EH1 2PS. Please ensure that your query is clear, particularly if it is a request for information about the data we hold about you (as under section 12, above).</p>
 
 
 <h3>15. Changes to Our Privacy Policy</h3>

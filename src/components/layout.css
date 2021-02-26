@@ -660,21 +660,14 @@ header {
   color: white;
 }
 
-/* .footer {
-  margin-top: 3rem;
-  background: black;
-} */
+
 footer {
   color: white;
   margin: 0 auto;
-  /* bottom: 0; */
   font-family: 'Gochi Hand', cursive;
   position: absolute;
- 
-  width: 100%;
+   width: 100%;
   background: black;
-
-
  
 }
 
@@ -687,6 +680,10 @@ footer ul {
 footer  a {
   text-decoration: none;
   color: white;  
+}
+
+footer p {
+  margin-bottom: 0;
 }
 
 .insta-footer {
@@ -786,4 +783,13 @@ justify-content: center;
   max-width: 30px;
   max-height: 30px;
 }
+
+footer {
+  bottom: 0;
+
+}
+ footer a,
+ footer p {
+   font-size: 0.9rem;
+ }
 }

@@ -116,7 +116,8 @@ const MenuIcon = styled.button`
 `
 
 const MenuLinks = styled.nav`
-    display: flex;
+    ${'' /* display: none; */}
+    display: ${({menuOpen}) => menuOpen ? "flex" : "none"};
     flex-direction: column;
     justify-content: center;
     align-items: center;

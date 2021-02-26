@@ -47,9 +47,12 @@ const Footer = () => {
                   <li>
                       <Link to="/contact">Contact Us</Link>
                   </li>
+                  <p>3 Brodie's Close.</p>
+                  <a href='tel:00447899347855' rel="noreferrer">07899 347855</a>
               </ul>
+              
             </div>
-            This site was built by <a href="https://gg-online.netlify.app/" target="_blank">{data.site.siteMetadata.author}, © 2021 </a>
+            This site was built by <a href="https://gg-online.netlify.app/" target="_blank">{data.site.siteMetadata.author}, © {new Date().getFullYear()} </a>
             </p>
         </footer>
     )
