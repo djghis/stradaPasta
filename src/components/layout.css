@@ -785,9 +785,10 @@ justify-content: center;
 }
 
 footer {
-  bottom: 0;
-
+  position: fixed;
+    bottom: 0;
 }
+
  footer a,
  footer p {
    font-size: 0.9rem;
