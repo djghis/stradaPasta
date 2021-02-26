@@ -21,11 +21,11 @@ const MobileNavMenu = () => {
             {/* <MenuLinks background={background}> */}
             <MenuLinks menuOpen={menuOpen}>
             <ul>
-                <li>
+                {/* <li>
                 <Link to="/" activeStyle={{ color: "#606060", fontSize: "145%" }}>Home</Link>
-                </li>
+                </li> */}
                 <li>
-                    <Link to="/menus" activeStyle={{ color: "#606060", fontSize: "145%" }}>Menu</Link>
+                    <Link to="//menus-with-modal" activeStyle={{ color: "#606060", fontSize: "145%" }}>Menu</Link>
                 </li>
                 <li>
                     <Link to="/gallery" activeStyle={{ color: "#606060", fontSize: "145%" }}>Gallery</Link>
