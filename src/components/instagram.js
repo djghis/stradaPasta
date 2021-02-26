@@ -39,21 +39,21 @@ const Instagram = () => {
           }
         }
       }
-    // `)
+    `)
       return (
         <div>
-        <div className="gallery" >
-           {data.allInstaNode.edges.map(edge => 
-                    <a href={edge.node.original} target="_blank" rel="noreferrer">
-                    <Img className="insta-photo"
-                      key={edge.node.id}
-                      fixed={edge.node.localFile.childImageSharp.fixed}
-                      alt="Photo from instagram"
-                    />
-                    </a>
-                    )}
-          </div>
-          <br></br>
+          <div className="gallery" >
+            {data.allInstaNode.edges.map(edge => 
+                      <a href={edge.node.original} target="_blank" rel="noreferrer">
+                      <Img className="insta-photo"
+                        key={edge.node.id}
+                        fixed={edge.node.localFile.childImageSharp.fixed}
+                        alt="Photo from instagram"
+                      />
+                      </a>
+                      )}
+            </div>
+          <br/>
             <h2
               style={{
             fontFamily: 'Gochi Hand',}}
