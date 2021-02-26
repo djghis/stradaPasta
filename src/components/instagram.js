@@ -39,7 +39,7 @@ const Instagram = () => {
           }
         }
       }
-    `)
+    // `)
       return (
         <div>
         <div className="gallery" >
@@ -53,6 +53,7 @@ const Instagram = () => {
                     </a>
                     )}
           </div>
+          <br></br>
             <h2
               style={{
             fontFamily: 'Gochi Hand',}}
