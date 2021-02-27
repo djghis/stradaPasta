@@ -35,6 +35,7 @@ const IndexPage = () => {
         <p>7 days a week 12pm to 11pm</p>
        
       </div>
+      <Link to="/order-online" className="order-now-btn" >Order Now</Link>
       <div style={{ maxWidth: `300px`, marginBottom: `1.45rem`}}>
      
     

@@ -764,6 +764,25 @@ justify-content: center;
   margin-top: 4rem;
 }
 
+.order-now-btn {
+  color: #fff ;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #4b4949a9;
+  padding: 20px;
+  border-radius: 50px;
+  display: inline-block;
+  border: none;
+  transition: all 0.4s ease 0s;
+  }
+
+  .order-now-btn:hover {
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+    }
+
 
                     /* THIS IS THE BEGINNING OF MEDIA QUERIES */
 

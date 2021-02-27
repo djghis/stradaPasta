@@ -10,7 +10,7 @@ const MobileNavMenu = () => {
 
     return (
         <MenuBar>
-            <Link to="/"><div className="logo"> <img  src={Logo} className="logo-strada" ></img></div></Link>
+            <Link to="/"><div className="logo"> <img  src={Logo} className="logo-strada" alt="logo" ></img></div></Link>
             <MenuIconContainer>
                 <MenuIcon menuOpen={menuOpen} onClick={() => setMenuOpen(!menuOpen)}>
                     <div/>

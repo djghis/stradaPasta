@@ -13,7 +13,7 @@ const ContactUs = () => (
   <Layout>
     <SEO title="Contact us" />
     <h1>Contact Us</h1>
-    <p>here are all the way you can contact us:</p>
+    <p>Hhere are all the ways you can contact us:</p>
     
     <div className="Contact-us">
       <h2>
@@ -34,7 +34,7 @@ const ContactUs = () => (
         </a>
       </h2>
       
-      <h1>You can also find us on social medias</h1>
+      <h1>You can also find us on social media</h1>
     </div>
     <div>
      <h2 >

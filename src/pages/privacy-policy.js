@@ -9,7 +9,7 @@ const PrivacyPolicy = () => (
 
     <h2>PRIVACY POLICY</h2>
 
-<p>We at Strada Pasta understand that your privacy is important to you and that you care about how your personal data is used and shared online. We respect and value the privacy of everyone who visits this website www.mattopizzaonline.co.uk ("our Site") and will only collect and use personal data in ways that are described here, and in a manner that is consistent with our obligations and your rights under the law.
+<p>We at Strada Pasta understand that your privacy is important to you and that you care about how your personal data is used and shared online. We respect and value the privacy of everyone who visits this website  ("our Site") and will only collect and use personal data in ways that are described here, and in a manner that is consistent with our obligations and your rights under the law.
 </p>
 
 <p>Please read this Privacy Policy carefully and ensure that you understand it. Your acceptance of our Privacy Policy is deemed to occur upon your first use of our Site. If you do not accept and agree with this Privacy Policy, you must stop using our Site immediately.
@@ -173,7 +173,7 @@ const PrivacyPolicy = () => (
 
 <h3>14. Contacting Us</h3>
 
-<p>If you have any questions about our Site or this Privacy Policy, please contact us by email at info@mattopizzaonline.co.uk by telephone on 07899 347855 or by post at 3 Brodie's Close, Edinburgh EH1 2PS. Please ensure that your query is clear, particularly if it is a request for information about the data we hold about you (as under section 12, above).</p>
+<p>If you have any questions about our Site or this Privacy Policy, please contact us by email at Babacatering@outlook.com by telephone on 07899 347855 or by post at 3 Brodie's Close, Edinburgh EH1 2PS. Please ensure that your query is clear, particularly if it is a request for information about the data we hold about you (as under section 12, above).</p>
 
 
 <h3>15. Changes to Our Privacy Policy</h3>

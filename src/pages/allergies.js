@@ -9,7 +9,7 @@ const Allergies = () => (
 
         <h2>ALLERGY INFORMATION</h2>
 
-        <h3>Read the FAQs below for more information about Matto Pizza's food allergy policies.</h3>
+        <h3>Read the FAQs below for more information about Strada pasta food allergy policies.</h3>
 
         <h4>What if I have food allergy?</h4>
 

@@ -14,14 +14,14 @@ const OrderOnline = () => (
     <h1>Order here</h1>
     <p>Delivery and collection 7 days a week 2pm to 11pm</p>
     <div className="order-links">
-      <a target="_blank" href="https://deliveroo.co.uk/menu/edinburgh/old-town/abr-catering-ltd">
-        <img className="order-link" src={DeliverooImage}/>
+      <a target="_blank" rel="noreferrer" href="https://deliveroo.co.uk/menu/edinburgh/old-town/abr-catering-ltd">
+        <img className="order-link" src={DeliverooImage} alt=""/>
       </a>
-      <a  href="https://www.ubereats.com/gb/edinburgh/food-delivery/strada/TY8Kh9RYSJuRVSskGXxHSA" target="_blank">
+      <a  href="https://www.ubereats.com/gb/edinburgh/food-delivery/strada/TY8Kh9RYSJuRVSskGXxHSA" target="_blank" rel="noreferrer">
         <img className="order-link" src={UberEatImage}/>
       </a>
-      <a  href="https://www.just-eat.co.uk/restaurants-strada-edinburgh/menu" target="_blank">
-        <img className="order-link"  src={JustEatImage} />
+      <a  href="https://www.just-eat.co.uk/restaurants-strada-edinburgh/menu" target="_blank" rel="noreferrer">
+        <img className="order-link"  src={JustEatImage} alt="" />
       </a>
     </div>
    
@@ -31,6 +31,9 @@ const OrderOnline = () => (
         <img className="call-logo"  src={PhoneIcon} alt="" />
         <h2>07985 731129</h2>
       </a>
+      <p>Pick up from 3 Brodie's Close,</p>
+      <p>304 Lawnmarket,</p>
+      <p>Edinburgh, EH12PS.</p>
     </div>
     
     
