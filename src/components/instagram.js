@@ -39,7 +39,7 @@ const Instagram = () => {
           }
         }
       }
-    // `)
+    `)
       return (
         <div>
           <div className="gallery" >
