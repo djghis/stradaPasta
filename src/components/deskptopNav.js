@@ -28,21 +28,21 @@ const DesktopNavMenu = () => {
         <StyledHeader background={background}>
             <div className="logo"><Link to="/" > <img  src={Logo} className="logo-strada" ></img></Link></div>
             <ul>
-                {/* <li>
-                <Link to="/" activeStyle={{ color: "#606060", fontSize: "120%" }} >Home</Link>
-                </li> */}
                 <li>
-                    <Link to="/menus-with-modal" activeStyle={{ color: "#606060", fontSize: "120%" }}>Menu</Link>
+                <Link to="/" activeStyle={{ color: "#606060", fontSize: "120%" }} >Home</Link>
                 </li>
+                {/* <li>
+                    <Link to="/menus-with-modal" activeStyle={{ color: "#606060", fontSize: "120%" }}>Menu</Link>
+                </li> */}
                 <li>
                     <Link to="/gallery" activeStyle={{ color: "#606060", fontSize: "120%" }}>Gallery</Link>
                 </li>
                 <li>
                     <Link to="/order-online" activeStyle={{ color: "#606060", fontSize: "120%" }}>Order-Online</Link>
                 </li>
-                <li>
+                {/* <li>
                     <Link to="/catering-events" activeStyle={{ color: "#606060", fontSize: "120%" }}>Catering & Events</Link>
-                </li>
+                </li> */}
                 <li>
                     <Link to="/contact" activeStyle={{ color: "#DDDDDD" }}>Contact Us</Link>
                 </li>
