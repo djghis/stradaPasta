@@ -12,4 +12,4 @@ Next step will be E-commerce for food pick-up.
 
 ## 🍝 Live Website
 
-The live website will be at (https://strada-pasta.netlify.app/).
+The live website will be at https://strada-edinurgh.netlify.app/.
