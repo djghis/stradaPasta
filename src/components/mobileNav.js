@@ -2,7 +2,8 @@ import React, {useState} from "react"
 import {Link} from "gatsby"
 import styled from "styled-components"
 import {breakpoints}  from "../utils/breakPoints"
-import Logo from '../images/background-logo-cut.jpeg'
+// import Logo from '../images/background-logo-cut.jpeg'
+import Logo from '../images/strada-logo-white.jpg'
 
 const MobileNavMenu = () => {
 
@@ -24,9 +25,9 @@ const MobileNavMenu = () => {
                 <li>
                 <Link to="/" activeStyle={{ color: "#606060", fontSize: "145%" }}>Home</Link>
                 </li>
-                {/* <li>
+                <li>
                     <Link to="/menus-with-modal" activeStyle={{ color: "#606060", fontSize: "145%" }}>Menu</Link>
-                </li> */}
+                </li>
                 <li>
                     <Link to="/gallery" activeStyle={{ color: "#606060", fontSize: "145%" }}>Gallery</Link>
                 </li>
@@ -63,7 +64,8 @@ const MenuBar = styled.header`
     height: 5rem;
     ${'' /* position: fixed; */}
     width: 100%;
-    background: black;
+    ${'' /* background: black; */}
+    background: white;
     border-bottom: blue;
     z-index: 10;
     display: flex;
@@ -79,6 +81,8 @@ const MenuIconContainer = styled.div`
 
 const MenuIcon = styled.button`
     cursor: pointer;
+    position: fixed;
+
     background: transparent;
     border: none;
     display: flex;
@@ -93,7 +97,8 @@ const MenuIcon = styled.button`
         width: 2rem;
         height: .25rem;
         ${'' /* background: white; */}
-        background: ${({menuOpen}) => menuOpen ? "red" : "white"};
+        ${'' /* background: ${({menuOpen}) => menuOpen ? "red" : "white"}; */}
+        background: ${({menuOpen}) => menuOpen ? "white" : "black"};
         border-radius: 10px;
         transform-origin: 1px;
         transition: opacity 400ms, transform 400ms;
@@ -122,7 +127,7 @@ const MenuLinks = styled.nav`
     justify-content: center;
     align-items: center;
     background: black;
-    position: absolute;
+    position: fixed;
     z-index: 9;
     top: 0;
     right: 0;

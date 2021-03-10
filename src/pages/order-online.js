@@ -10,8 +10,6 @@ import SEO from "../components/seo"
 const OrderOnline = () => (
   <Layout>
     <SEO title="Order online" />
-    
-    <h1>Order here</h1>
     <p>Delivery and collection 7 days a week 12pm to 11pm</p>
     <div className="order-links">
       <a target="_blank" rel="noreferrer" href="https://deliveroo.co.uk/menu/edinburgh/old-town/abr-catering-ltd">

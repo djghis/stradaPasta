@@ -24,7 +24,7 @@ import { Link, useStaticQuery, graphql } from 'gatsby'
 import Layout from '../components/layout'
 
 import Img from 'gatsby-image'
-import Menu from '../images/menu.png'
+
 import Image from "../components/images/image"
 
 ReactModal.setAppElement('#___gatsby')
@@ -53,9 +53,9 @@ class MenusModal extends Component {
     return (
       <Layout>
         <div id="main">
-          <h1>Our Menu</h1>
+          {/* <h1>Our Menu</h1> */}
           
-          <p>Click on it to make it full page.</p>
+          {/* <p>Click on it to make it full page.</p> */}
 
           <Link to="#" onClick={this.handleModalOpen}>
             {/* <img src={Menu} ></img> */}
@@ -69,10 +69,13 @@ class MenusModal extends Component {
           contentLabel="Full Page Menu"
         >
           <h2>Strada</h2>
-          <button onClick={this.handleModalClose}>Go back</button>
+          <Link to="/order-online" className="order-now-btn__menu" >Order Now</Link>
+          <button className="order-now-btn__menu" onClick={this.handleModalClose}>Close</button>
           <Image/>
           
-          <button onClick={this.handleModalClose}>Go back</button>
+          <Link to="/order-online" className="order-now-btn__menu" >Order Now</Link>
+          <button className="order-now-btn__menu" onClick={this.handleModalClose}>Close</button>
+          
         </ReactModal>
       </Layout>
     )

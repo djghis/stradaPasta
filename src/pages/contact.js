@@ -12,12 +12,34 @@ import MailIcon from '../images/mail-icon-bw-other.png'
 const ContactUs = () => (
   <Layout>
     <SEO title="Contact us" />
-    <h1>Contact Us</h1>
-    <p>Here are all the ways you can contact us:</p>
+    
+    {/* <p>Here are all the ways you can contact us:</p> */}
     
     <div className="Contact-us">
       <h2>
-        <a href='tel:00447899347855' rel="noreferrer">Phone us on: 07899 347855
+        <a href='tel:00447899347855' rel="noreferrer">07899 347855
+        </a>
+      </h2>
+      <h2>
+        <a href='tel:00447899347855' rel="noreferrer">
+          <img className='insta-logo' src={PhoneIcon} alt="" />
+        </a>
+      </h2>
+
+      <br/>
+
+      <h2> 
+        <a href='mailto:Babacatering@outlook.com' rel="noreferrer">Babacatering@outlook.com
+        </a>
+        
+      </h2>
+      <h2 >
+      <a href='mailto:Babacatering@outlook.com' rel="noreferrer">
+      <img className='insta-logo' src={MailIcon} alt="" />
+      </a>
+      </h2>
+      {/* <h2>
+        <a href='tel:00447899347855' rel="noreferrer">07899 347855
           <span>
             <img className='insta-logo' src={PhoneIcon} alt="" />
           </span>
@@ -32,28 +54,33 @@ const ContactUs = () => (
             <img className='insta-logo' src={MailIcon} alt="" />
           </span>
         </a>
-      </h2>
+      </h2> */}
       
-      <h1>You can also find us on social media</h1>
-    </div>
-    <div>
-     <h2 >
-      <a href='https://www.instagram.com/stradaedin/' target='_blank' rel="noreferrer" >Follow us on Instagram  
-          <span>
+     
+    {/* </div>
+    <div> */}
+     <h2 className="contact-social-media">
+      <a className="contact-social-media_logo" href='https://www.instagram.com/stradaedin/' target='_blank' rel="noreferrer" > 
+          {/* <span> */}
             <img className='insta-logo' src={Instalogo} alt="" />
-          </span>
+          {/* </span> */}
+      </a>
+      <a className="contact-social-media_logo" href='https://www.facebook.com/stradaedin' target="_blank" rel="noreferrer">
+        {/* <span> */}
+          <img className='insta-logo' src={Facebooklogo} alt="" />
+        {/* </span> */}
       </a>
     </h2>
 
     <br/>
 
-    <h2>
-      <a href='https://www.facebook.com/stradaedin' target="_blank" rel="noreferrer">Follow us on Facebook  
+    {/* <h2>
+      <a href='https://www.facebook.com/stradaedin' target="_blank" rel="noreferrer">
         <span>
           <img className='insta-logo' src={Facebooklogo} alt="" />
         </span>
       </a>
-    </h2>
+    </h2> */}
      
     </div>
     

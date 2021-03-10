@@ -2,7 +2,8 @@ import React, {useEffect, useRef, useState} from "react"
 import {Link} from "gatsby"
 import styled from "styled-components"
 import { breakpoints } from "../utils/breakPoints"
-import Logo from '../images/background-logo-cut.jpeg'
+// import Logo from '../images/background-logo-cut.jpeg'
+import Logo from '../images/strada-logo-white.jpg'
 
 const DesktopNavMenu = () => {
 
@@ -29,22 +30,22 @@ const DesktopNavMenu = () => {
             <div className="logo"><Link to="/" > <img  src={Logo} className="logo-strada" ></img></Link></div>
             <ul>
                 <li>
-                <Link to="/" activeStyle={{ color: "#606060", fontSize: "120%" }} >Home</Link>
+                <Link to="/" activeStyle={{ color: "#585858", fontSize: "120%" }} >Home</Link>
+                </li>
+                <li>
+                    <Link to="/menus-with-modal" activeStyle={{ color: "#585858", fontSize: "120%" }}>Menu</Link>
+                </li>
+                <li>
+                    <Link to="/gallery" activeStyle={{ color: "#585858", fontSize: "120%" }}>Gallery</Link>
+                </li>
+                <li>
+                    <Link to="/order-online" activeStyle={{ color: "#585858", fontSize: "120%" }}>Order-Online</Link>
                 </li>
                 {/* <li>
-                    <Link to="/menus-with-modal" activeStyle={{ color: "#606060", fontSize: "120%" }}>Menu</Link>
+                    <Link to="/catering-events" activeStyle={{ color: "#585858", fontSize: "120%" }}>Catering & Events</Link>
                 </li> */}
                 <li>
-                    <Link to="/gallery" activeStyle={{ color: "#606060", fontSize: "120%" }}>Gallery</Link>
-                </li>
-                <li>
-                    <Link to="/order-online" activeStyle={{ color: "#606060", fontSize: "120%" }}>Order-Online</Link>
-                </li>
-                {/* <li>
-                    <Link to="/catering-events" activeStyle={{ color: "#606060", fontSize: "120%" }}>Catering & Events</Link>
-                </li> */}
-                <li>
-                    <Link to="/contact" activeStyle={{ color: "#DDDDDD" }}>Contact Us</Link>
+                    <Link to="/contact" activeStyle={{ color: "#585858", fontSize: "120%" }}>Contact Us</Link>
                 </li>
             </ul>
         </StyledHeader>
@@ -65,7 +66,8 @@ display: none;
     padding: .5rem;
     transition: background 400ms;
     ${'' /* background: black; */}
-    background: ${({ background }) => background ? "grey" : "black"};
+    ${'' /* background: ${({ background }) => background ? "grey" : "black"}; */}
+    background: ${({ background }) => background ? "grey" : "white"};
 
         .logo-strada {
             height: 100px;
@@ -86,7 +88,7 @@ display: none;
 
             a {
                 text-decoration: none;
-                color: white;
+                color: black;
                 transition: color 400ms, font-size .4s;
 
                 :hover {

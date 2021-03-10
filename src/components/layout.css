@@ -26,7 +26,7 @@ body {
   -ms-font-feature-settings: "kern", "liga", "clig", "calt";
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
-  background-color: #e6e6e6;
+  /* background-color: #e6e6e6; */
 }
 article,
 aside,
@@ -641,9 +641,9 @@ header {
   transition: color 300ms;
 }
 
-.menu a:hover {
+/* .menu a:hover {
   color: grey;
-}
+} */
 
 .menu-photo {
   max-height: 500px;
@@ -663,15 +663,19 @@ header {
 
 
 footer {
-  color: white;
+  color: black;
   margin: 0 auto;
   font-family: 'Gochi Hand', cursive;
   /* position: absolute; */
    width: 100%;
-  background: black;
+  background: white;
  
 }
 
+footer a:hover {
+    color: gray;
+}
+  
 
 footer ul {
   list-style: none;
@@ -680,7 +684,7 @@ footer ul {
 
 footer  a {
   text-decoration: none;
-  color: white;  
+  color: black;  
 }
 
 footer p {
@@ -695,9 +699,9 @@ footer p {
 }
 
 .insta-logo {
-  position: relative;
+  /* position: relative;
   top: -10px;
-  float: right;
+  float: right; */
   max-width: 40px;
   max-height: 40px;
 }
@@ -783,6 +787,43 @@ justify-content: center;
     transition: all 0.4s ease 0s;
     }
 
+    .order-now-btn__menu {
+      box-shadow:inset 0px 1px 3px 0px #91b8b3;
+      background:linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+      background-color:#768d87;
+      border-radius:5px;
+      border:1px solid #566963;
+      display:inline-block;
+      cursor:pointer;
+      color:#ffffff;
+      font-family:Arial;
+      font-size:15px;
+      font-weight:bold;
+      padding:11px 23px;
+      text-decoration:none;
+      text-shadow:0px -1px 0px #2b665e;
+    }
+    .order-now-btn__menu:hover {
+      background:linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+      background-color:#6c7c7c;
+    }
+    .order-now-btn__menu:active {
+      position:relative;
+      top:1px;
+    }
+
+    .contact-us {
+      display: grid;
+    }
+
+    .contact-social-media {
+      display: inline;
+    }
+
+    .contact-social-media_logo {
+      padding: 2rem;
+    }
+
 
                     /* THIS IS THE BEGINNING OF MEDIA QUERIES */
 
@@ -799,11 +840,6 @@ justify-content: center;
   h2 {
     font-size: .98rem;
   }
-
-.insta-logo {
-  max-width: 30px;
-  max-height: 30px;
-}
 
 .site {
   display: flex;

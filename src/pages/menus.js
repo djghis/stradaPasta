@@ -6,7 +6,7 @@ import Layout from '../components/layout'
 import MenuStrada from '../components/menu-strada'
 
 import Img from 'gatsby-image'
-import Menu from '../images/menu.png'
+
 import Image from "../components/images/image"
 
 ReactModal.setAppElement('#___gatsby')
@@ -35,8 +35,8 @@ class Menus extends Component {
     return (
       <Layout>
        
-          <h1>Our Menu</h1>
-          <p>Please find a all lot of delicious treats on there.</p>
+          {/* <h1>Our Menu</h1> */}
+          {/* <p>Please find a all lot of delicious treats on there.</p> */}
           <MenuStrada />
 
           

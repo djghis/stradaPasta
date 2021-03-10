@@ -4,7 +4,8 @@ import { Link, useStaticQuery, graphql } from 'gatsby'
 
 // import footerStyles from '../styles/components/footer.module.scss'
 // import SocialMediaButtons from './social-media-buttons'
-import InstaLogo from '../images/1-19361_watercolor-instagram-icon-png-instagram-logo-white-on.png'
+// import InstaLogo from '../images/1-19361_watercolor-instagram-icon-png-instagram-logo-white-on.png'
+import InstaLogo from '../images/insta-logo-bw.png'
 
 
 const Footer = () => {
@@ -58,4 +59,4 @@ const Footer = () => {
     )
 }
 
-export default Footer
+export default Footer;
